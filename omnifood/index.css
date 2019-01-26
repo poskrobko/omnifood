@@ -1,0 +1,797 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    height: 600px;
+    width: 100%;
+}
+
+section {
+    display: inline-block;
+}
+
+section .section-header {
+    height: 120px;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.logo > img {
+    width: 70px;
+    padding-left: 40%;
+}
+nav {
+    float: left;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 30px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nav-item {
+    float: left;
+    margin-left: 70px;
+    color:black;
+}
+
+.title {
+    float: left;
+    margin-left: 20%;
+    color:white;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 300px;
+}
+.form1 {
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-size: 15px;
+}
+.form2 {
+    border-radius: 200px;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.preview {  
+    background-image: -webkit-linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+h1 {
+    float: left;
+    margin-left: 34%;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+}
+hr {
+    width: 5%;
+    margin-left: 48%;
+    position: absolute;
+    margin-top: 8%;
+    margin-bottom: 50px;
+    border-color: orange;
+}
+.days {
+    float: left;
+    margin-left: 16%;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 22%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.infinity-img {
+    float: left;
+    margin-left: 17%;
+    margin-top: 18%;
+}
+.infinity-img > img {
+    width: 40px;
+}
+.minutes {
+    float: left;
+    margin-left: 36%;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 22%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.clock-img{
+    float: left;
+    margin-left: 17%;
+    margin-top: 18%;
+}
+.clock-img > img {
+    width: 40px;
+}
+.organic {
+    float: left;
+    margin-left: 55%;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 22%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.carrot-img{
+    float: left;
+    margin-left: 16%;
+    margin-top: 18%;
+}
+.carrot-img > img {
+    width: 40px;
+}
+.anything {
+    float: left;
+    margin-left: 74%;
+    color: darkgrey;
+    position: absolute;
+    margin-top: 22%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.shopping-img {
+    float: left;
+    margin-left: 15%;
+    margin-top: 18%;
+}
+.shopping-img > img{
+    width: 40px;
+}
+.foodfast {
+    float: left;
+    margin-left: 30%;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 130px;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+.text1 {
+    float: left;
+    margin-left: 16%;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    margin-top: 24%;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.text2 {
+    float: left;
+    margin-left: 36%;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 24%;
+}
+.text3 {
+    float: left;
+    margin-left: 55%;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 24%;
+}
+.text4 {
+    float: left;
+    margin-left: 74%;
+    color:darkgrey;
+    position: absolute;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 24%;
+}
+.menu-blog {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    border: none;
+}
+.menu{
+    margin-top: 200px;
+}
+h2 {
+    float: left;
+    margin-left: 35%;
+    color:darkgrey;
+    position: absolute;
+    margin-top: 4%;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.phone {
+    display: inline-block;
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+.iphone-photo {
+    float: left;
+    width: 45%;
+}
+
+.iphone-photo > img {
+    float: right;
+    width: 200px;
+    padding-right: 5%;
+}
+
+.how-it-works-steps {
+    float: left;
+    width: 50%;
+}
+
+.how-it-works-steps-item {
+    float: left;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.how-it-works-steps-item-icon {
+    float: left;
+    padding-left: 5%;
+    width: 15%;
+}
+
+.how-it-works-steps-item-icon img {
+    display: inline-block;
+    width: 50%; 
+    padding-left: 10%;
+}
+
+.how-it-works-steps-item-description {
+    float: left;
+    width: 70%;
+}
+
+.download {
+    margin-left: 600px;
+    margin-top: 28%;
+}
+.download-app {
+    float: left;
+    width: 20%;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+.download-android {
+    float: left;
+    width: 17.5%;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+h3 {
+  float: left;
+  margin-left: 45%;
+  margin-top: 5%;
+  color: darkgrey;
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: 'Thasadith', sans-serif;
+}
+.lisbon-photo {
+    float: right;
+    margin-right: 65%;
+    margin-top: 9.5%;
+}
+.lisbon-text {
+    float: right;
+    margin-right: 75%;
+    margin-top: 3%;
+    color: darkgrey;
+}
+.san-photo {
+    float: left;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 14%;
+}
+.san-text {
+    float: left;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 26%;
+    color: darkgrey;
+}
+.berlin-photo {
+    float: left;
+    margin-left: 54%;
+    position: absolute;
+    margin-top: 14%;
+}
+.berlin-text {
+    float: left;
+    margin-left: 55%;
+    position: absolute;
+    margin-top: 26%;
+    color: darkgrey;
+}
+.london-photo{
+    float: left;
+    margin-left: 72%;
+    position: absolute;
+    margin-top: 14%;
+}
+.london-text {
+    float: left;
+    margin-left: 75%;
+    position: absolute;
+    margin-top: 26%;
+    color: darkgrey;
+}
+.icon-text {
+    float: left;
+    margin-left: 19%;
+    margin-top: 1%;
+    color: darkgrey;
+}
+.icons {
+    width: 2%;
+    margin-top: 10px;
+}
+.icon-text1 {
+    float: left;
+    margin-left: 34%;
+    position: absolute;
+    margin-top: 28%;
+    color: darkgrey;
+}
+.icon-text2 {
+    float: left;
+    margin-left: 54%;
+    position: absolute;
+    margin-top: 28%;
+    color: darkgrey;
+}
+.icon-text3 {
+    float: left;
+    margin-left: 74%;
+    position: absolute;
+    margin-top: 28%;
+    color: darkgrey;
+}
+.pizza-photo {
+    background-image: -webkit-linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back-customers.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment: fixed;
+    width: 100%;
+    margin-top: 10%;
+}
+.title-logo {
+    float: left;
+    margin-left: 35%;
+    color:darkgrey;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 4%;
+}
+.omnifood-text {
+   float: left;
+   margin-left: 26%;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.healthy-text {
+   float: left;
+   margin-left: 90px;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.looking-text {
+    float: left;
+   margin-left: 100px;
+   margin-top: 80px;
+   color: darkgrey;
+   font-size: 13px;
+   font-family: 'Muli', sans-serif;
+   word-wrap: break-word;
+   width: 180px;
+}
+.customer-photo1{
+   float: left;
+   margin-left: 26%;
+   margin-top: 10px;
+   color: darkgrey;
+   font-size: 10px;
+}
+.photo1 {
+    border-radius: 50%;
+}
+.customer-photo2{
+    float: left;
+    margin-left: 180px;
+    margin-top: 10px;
+    color: darkgrey;
+    font-size: 10px;
+ }
+ .photo2 {
+     border-radius: 50%;
+ }
+ .customer-photo3{
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: darkgrey;
+    font-size: 10px;
+ }
+ .quotes {
+     font-size: 40px;
+ }
+ .photo3{
+     border-radius: 50%;
+ }
+ .dolars {
+     background-color: ghostwhite;
+     width: 100%;
+     height: 90%;
+ }
+ h4 {
+    float: left;
+    margin-left: 36%;
+    margin-top: 5%;
+    color: darkgrey;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+ }
+ .start_eating {
+     background-color: white;
+     width: 18%;
+     height: 60%;
+     margin-left: 20%;
+     margin-top: 10%;
+ }
+ .premium {
+     float: left;
+     color: darkgrey;
+     margin-top: 5%;
+     margin-left: 3%;
+ }
+ .dolar1{
+     float: right;
+     margin-top: 7%;
+     margin-right: 40%;
+     color: orangered;
+     font-size: 300%;
+     font-weight: lighter;
+ }
+ .month{
+     float: left;
+     margin-left: 12%;
+     color: orangered;
+     font-size: 70%;
+     font-weight: lighter;
+     position: absolute;
+     margin-top: 6.5%;
+ }
+ .only-item {
+     float: left;
+     margin-left: 5%;
+     font-size: 80%;
+     color: darkgray;
+     margin-top: 3%;
+ }
+ .meal_every_day {
+     float: left;
+     margin-left: 7%;
+     margin-top: 8%;
+     font-size: 71%;
+     color: darkgray;
+ }
+ .order{
+    float: right;
+    margin-right: 65%;
+    margin-top: 6%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .access{
+    float: right;
+    margin-right: 29%;
+    margin-top: 6%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .free_delivery{
+    float: right;
+    margin-right: 60%;
+    margin-top: 6%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .form3 { 
+     border: 2px solid orangered;
+    color: white;
+    background-color: orangered;
+    float: right;
+    margin-right: 25%;
+    padding: 10px 30px;
+    border-radius: 60px;
+    font-size: 80%;
+    margin-top: 7%;
+ }
+ .PRO{
+   float: left;
+   margin-left: 41%;
+   background-color: white;
+   width: 18%;
+   height: 45%;
+   position: absolute;
+   margin-top: -21.3%;
+ }
+ .dolar2{
+    float: right;
+    margin-top: 7%;
+    margin-right: 40%;
+    color: orangered;
+    font-size: 300%;
+    font-weight: lighter;
+}
+.month1{
+    float: left;
+    margin-left: 66%;
+    color: orangered;
+    font-size: 70%;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 35%;
+}
+.only-item1 {
+    float: left;
+    margin-left: 5%;
+    font-size: 80%;
+    color: darkgray;
+    margin-top: 12%;
+}
+.meal_every_day1{
+    float: left;
+    margin-left: 7%;
+    margin-top: 9%;
+    font-size: 71%;
+    color: darkgray;
+}
+.order1{
+   float: right;
+   margin-right: 68%;
+   margin-top: 6%;
+   font-size: 71%;
+   color: darkgray;
+}
+.access1{
+   float: right;
+   margin-right: 37%;
+   margin-top: 6%;
+   font-size: 71%;
+   color: darkgray;
+}
+.free_delivery1{
+    float: right;
+    margin-right: 63%;
+    margin-top: 7%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .form4{
+    border: 2px solid orangered;
+    color: orangered;
+    background-color: white;
+    float: right;
+    margin-right: 25%;
+    padding: 10px 30px;
+    border-radius: 60px;
+    font-size: 80%;
+    margin-top: 8%;
+ }
+ .starter {
+    float: left;
+    margin-left: 62%;
+    background-color: white;
+    width: 18%;
+    height: 45%;
+    position: absolute;
+    margin-top: -21.3%;
+ }
+ .dolar3 {
+    float: right;
+    margin-top: 7%;
+    margin-right: 50%;
+    color: orangered;
+    font-size: 350%;
+    font-weight: lighter;
+ }
+ .meal{
+    float: left;
+    margin-left: 56%;
+    color: orangered;
+    font-size: 70%;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 34%;
+ }
+ .meal_1{
+    float: left;
+    margin-left: 6%;
+    margin-top: 15%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .order2{
+    float: right;
+    margin-right: 42%;
+    margin-top: 6%;
+    font-size: 70%;
+    color: darkgray;
+ }
+ .cross{
+     float: left;
+     margin-left: 7%;
+     margin-top: 3%;
+ }
+ .free_delivery2{
+    float: right;
+    margin-right: 65%;
+    margin-top: 5%;
+    font-size: 71%;
+    color: darkgray;
+ }
+ .hear_from_you{
+     display: inline-block;
+     height: 80%;
+ }
+.post {
+    float: left;
+    margin-left: 100%;
+    margin-top: 25%;
+}
+.form-item {
+    margin-top: 5%;
+}
+.item{
+   float: left; 
+   margin-left: 10%;
+   border-left: 1px solid #b3b3b3;
+   position: absolute;
+   margin-top: 0.3%;
+}
+.form-item-message{
+    float: left;
+    margin-left: 115%;
+    margin-top: -8%;
+    background-color: darkgrey;
+    border-left: 1px solid #b3b3b3;
+}
+.form-text{
+    color: darkgray;
+    font-size: 13px;
+    margin-top: 10%;
+}
+.form-text1{
+    float: right;
+   margin-right: -63%;
+}
+.form-text2{
+    margin-left: 90%;
+}
+.messange-item{
+    border-left: 1px solid #b3b3b3;
+    width: 150%;
+    height: 80px;
+    margin-left: 90%;
+    margin-top: -5%;
+}
+.messange-text{
+    float: left;
+    color: darkgray;
+    font-size: 13px;
+    margin-top: 6%;
+}
+.form5{
+    border: 2px solid orangered;
+    color: white;
+    background-color: orangered;
+    float: left;
+    margin-left: 87%;
+    padding: 10px 30px;
+    border-radius: 60px;
+    font-size: 70%;
+    margin-top: 10%;
+}
+.footer-item{
+    float: left;
+    background-color:dimgrey;
+    width: 100%;
+    height: 30%;
+}
+.footer_menu{
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 80%;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Thasadith', sans-serif;
+}
+.footer_icons_item {
+    float: right;
+    margin-right: 25%;
+    margin-top: 4%; 
+}
+.footer_icons{
+    float: left;
+}
+.paragraf-footer{
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 7%;
+    font-size: 80%;
+    color: black;
+}
+.paragraf-footer1{
+    text-align: left;
+    margin-left: 30%;
+   font-size: 80%;
+   color: black;
+}
+.footer-text{
+    text-align: left;
+    margin-left:35%;
+    margin-top: 1%;
+    font-size: 80%; 
+    color: black;
+}
